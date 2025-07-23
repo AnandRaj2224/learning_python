@@ -23,7 +23,6 @@ elif screen_time >= 10 and age >= 25 :
     print("ayy, we got a reddit mod here")
 elif screen_time >= 7 or age >= 20 :
     print("full time gooner")
-'''
 # loops
 
 # for loop syntax
@@ -39,3 +38,15 @@ for char in name:
 
 for num in range(11):
     print(num) 
+'''
+# while loop syntax
+
+value = True
+time = 0
+while value:
+    if time == 2:
+        value = False
+        print("the time has come pun intended")
+        break
+    time += 1
+    print("its not the time yet\n")
